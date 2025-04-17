@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" ng-app="phonecatApp">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="app.css" />
+
+  <script src="lib/angular/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.29/angular-ui-router.js"></script>
+  <script src="lib/angular-resource/angular-resource.js"></script>
+
+  <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
+
+  <script src="phone-list/phone-list.module.js"></script>
+  <script src="phone-list/phone-list.component.js"></script>
+
+  <script src="phone-detail/phone-detail.module.js"></script>
+  <script src="phone-detail/phone-detail.component.js"></script>
+
+  <script src="core/core.module.js"></script>
+  <script src="core/checkmark/checkmark.filter.js"></script>
+
+
+  <script src="core/phone/phone.module.js"></script>
+  <script src="core/phone/phone.service.js"></script>
+
+  <title>Google Phone Gallery</title>
+
+</head>
+
+<body>
+  <div ui-view></div>
+</body>
+
+</html>
